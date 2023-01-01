@@ -23,10 +23,10 @@ export function Header() {
         <img src={bookmark} alt="bookmark" />
         <img src={ham} alt="ham" onClick={handleClick} className="md:hidden cursor-pointer"/>
         <div className="items-center hidden md:flex">
-          <p>FEATURES</p>
-          <p className="mx-4">PRICING</p>
-          <p className="mr-4">CONTACT</p>
-        <button className="border px-4 py-2 login">LOGIN</button>
+          <a href="#features"><p className="cursor-pointer navi">FEATURES</p></a>
+          <a><p className="mx-4 cursor-pointer navi">PRICING</p></a>
+         <a href="#contact"> <p className="mr-4 cursor-pointer navi">CONTACT</p></a>
+        <button className="border px-4 py-2 login cursor-pointer">LOGIN</button>
         </div>
       </div>
       <div className="w-full flex flex-col lg:flex-row px-8 lg:w-10/12">
@@ -74,11 +74,11 @@ export function Header() {
             <img src={bookmark} alt="ham" className="text-white bg-white px-4 py-1" />
             <img src={close} alt="close" onClick={handleClose} className ="cursor-pointer"/>
           </div>
-          <p className="mt-8 uppercase p-4 w-10/12 features">Features</p>
-          <p className="uppercase px-6 py-4 w-10/12 pricing">Pricing</p>
-          <p className="uppercase px-6 py-4 w-10/12 contact">Contact</p>
+          <p className="mt-8 uppercase p-4 w-10/12 features cursor-pointer">Features</p>
+          <p className="uppercase px-6 py-4 w-10/12 pricing cursor-pointer">Pricing</p>
+          <p className="uppercase px-6 py-4 w-10/12 contact cursor-pointer">Contact</p>
         </div>
-        <button className="border-2 w-10/12 mt-8 py-2">LOGIN</button>
+        <button className="border-2 w-10/12 mt-8 py-2 cursor-pointer">LOGIN</button>
         <div className="flex mt-8 justify-center">
           <img src={facebook} alt="facebook" className="mr-8" />
           <img src={twitter} alt="twitter" />

@@ -1,9 +1,10 @@
-# Bookmark landing page
+#  Bookmark landing page
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
@@ -20,17 +21,21 @@ Users should be able to:
   - The input field is empty
   - The email address is not formatted correctly
 
+### Screenshot
+
+![](./bookmark.png)
+
+## My process
+
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Tailwind CSS
-- Flexbox
+- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-
+- React JS
+- Tailwind
 
 ## Author
 
-- Author - Henry 
-- Twitter - [@Ray_dev67](https://www.twitter.com/Ray_dev67)
+- [Henry Elebor]

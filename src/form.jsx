@@ -25,7 +25,7 @@ export function Form() {
   };
 
   return (
-    <div>
+    <div id="contact">
       <div className="mt-32 py-12 flex flex-col items-center form">
         <div className="w-10/12">
           <p className="tracking-widest form">35,000+ already joined</p>
